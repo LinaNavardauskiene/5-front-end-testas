@@ -5,30 +5,58 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-transform: capitalize;
 }
 body {
+    background-color: black;
 }
-.pagrindinis-langas {
 
+.pagrindinis-langas {
+    display: inline-block;
+    width: 1500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
 }
 .kaire-puse {
+    display: inline-block;
+    width: 40%;
+    background-color: coral;
+    padding: 100px;
+    padding-top: 50px;
 
 }
-h1 {
+.antraste1 {
+    color: #3952FD;
+    font-size: 30px;
 }
-h2{
-
-}
+.antraste2 {
+    margin-top: 70px;
+    line-height: 35px;
+    color: #223153'
+ }
 p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #B6B7BF;
 
+}
+
+.linkas {
+    
 }
 span {
 
 }
-.linkas {
-    
-}
-
 .desine-puse {
-    
+    width: 60%;
+    height: 750px;
+     background-image: url(../img/Karusele.jpg);
+    float: right;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;      
 }

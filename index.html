@@ -12,18 +12,23 @@
 </head>
 
 <body>
+    <div class="background"></div>
     <main class="pagrindinis-langas">
         <div class="kaire-puse">
-            <h1>Fcuksense</h1>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <h1 class="antraste1">Fcuksense</h1>
+            <h2 class="antraste2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <div class="forma">
-                <form action="#">Email Address</form>
-            </div>
-            <div class="forma">
-                <form action="#">Password</form>
-            </div>
-            <div class="cekboksas">
+            <form class="forma">
+                <div class="formos-eilute">
+                    <label for="email">Email Address</label>
+                    <input id="email" placeholder="wes@fuckensense.com" type="email" required>
+                </div>
+                <div class="formos-eilute">
+                    <label for="password">Password</label>
+                    <input id="password" placeholder="*****************" type="email" required>
+                </div>
+            </form>
+            <div class="cekboksas-forgetpass">
                 Čekboksas
                 <a href="#">Forget password?</a>
             </div>
@@ -33,13 +38,12 @@
             </div>
             <nav class="linkas">
                 <span>Or log in with</span>
-                <a href="#">Facebook</a>
-                <a href="#">Linkedin</a>
-                <a href="#">Google</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Linkedin</a>
+                <a href="#" target="_blank">Google</a>
             </nav>
         </div>
         <div class="desine-puse">
-            KARUSELES IMG
         </div>
     </main>
 
