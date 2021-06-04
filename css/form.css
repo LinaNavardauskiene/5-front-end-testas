@@ -1,7 +1,22 @@
 .forma {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+.forma {
+
+}
+.formos-eilute {
+
+}
+label {
 
 }
 
-.cekboksas {
+input {
+    
+}
+.cekboksas-forgetpass {
 
 }
